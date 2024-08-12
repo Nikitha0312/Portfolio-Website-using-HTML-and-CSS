@@ -534,3 +534,6 @@ ul li::marker {
 .social-icon-linkedin{
     height: 50px;
 }
+html {
+    scroll-behavior: smooth;
+}
