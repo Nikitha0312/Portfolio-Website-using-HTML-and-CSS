@@ -537,3 +537,93 @@ ul li::marker {
 html {
     scroll-behavior: smooth;
 }
+/* Mobile View (for screens less than 768px wide) */
+@media (max-width: 768px) {
+    /* General Body Styling */
+    body {
+        padding: 10px;
+    }
+
+    /* Navbar Adjustments */
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .element {
+        margin: 10px 0;
+        font-size: 1em;
+    }
+
+    /* Home Section Adjustments */
+    .home {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .home-right {
+        margin-left: 0;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .profile-pic {
+        width: 80%;
+    }
+
+    .home-right h1 {
+        font-size: 1.8em;
+    }
+
+    .home-right p {
+        font-size: 1em;
+    }
+
+    .cta-button {
+        padding: 10px 20px;
+        font-size: 1em;
+    }
+
+    /* Education Section */
+    .education-container {
+        flex-direction: column;
+    }
+
+    .edu {
+        margin-bottom: 20px;
+    }
+
+    /* Skills Section */
+    .skills-grid {
+        flex-direction: column;
+    }
+
+    .skill-item {
+        flex: 1 1 100%;
+    }
+
+    /* Projects Section */
+    .projects h2 {
+        font-size: 2em;
+    }
+
+    .project-item h3 {
+        font-size: 1.5em;
+    }
+
+    /* Contact Section */
+    .contact-me {
+        padding: 20px;
+    }
+
+    .contact-me h2 {
+        font-size: 2em;
+    }
+
+    .social-icon {
+        margin: 5px;
+        padding: 10px;
+        font-size: 1em;
+    }
+}
+
