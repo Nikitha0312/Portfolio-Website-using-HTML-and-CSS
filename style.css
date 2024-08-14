@@ -626,4 +626,24 @@ html {
         font-size: 1em;
     }
 }
+body {
+    font-size: 14px; /* Decrease the base font size */
+}
+
+h1 {
+    font-size: 2em; /* Reduce heading size */
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+h3 {
+    font-size: 1.2em;
+}
+
+p {
+    font-size: 0.9em;
+}
+
 
